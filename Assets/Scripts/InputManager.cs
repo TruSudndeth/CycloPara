@@ -8,25 +8,19 @@ public class InputManager : MonoBehaviour
 {
     public delegate void Interaction();
     public static event Interaction OnInteraction;
-    
     public static InputManager Instance { get; private set; }
+    public Vector2 Move { get { return _move; } private set { } }
+    public Vector2 Look { get  { return _look; } private set { } }
+    
+    
     private BaseCycloParaInputs _baseInputs;
     private InputAction _WSAD;
     private InputAction _mouseLook;
     private InputAction _interaction;
+    private Vector2 _look;
     private Vector2 _move;
     private bool _interact;
     private bool _interactFixed = false;
-    private Vector2 _look;
-
-    [SerializeField]
-    private bool mouse = false;
-    [SerializeField]
-    private bool wsad = false;
-    [SerializeField]
-    private bool space = false;
-    [SerializeField]
-    private bool disableInputs;
     private void Awake()
     {
         _baseInputs = new BaseCycloParaInputs();
@@ -70,7 +64,6 @@ public class InputManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        //Add Trigger evenets here
         if(_interactFixed)
         {
             _interactFixed = false;
@@ -82,11 +75,5 @@ public class InputManager : MonoBehaviour
         _WSAD.Disable();
         _mouseLook.Disable();
         _interaction.Disable();
-    }
-    private void OnEnable()
-    {
-        //_WSAD.Enable();
-        //_mouseLook.Enable();
-        //_interaction.Enable();
     }
 }
