@@ -19,7 +19,21 @@ public class VFXPoolManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+    private void SpawnVFXFromPool(Vector3 location, VFXType vfxType)
+    {
+        Transform vfx = vfxPool.Find(x => x.gameObject.activeSelf == false && x.GetComponent<VFXRoot>().VFXType == vfxType);
+        if (vfx == null)
+        {
+            vfx = Instantiate(gameObjectPool[(int)vfxType], location, Quaternion.identity);
+            vfxPool.Add(vfx);
+        }
+        else
+        {
+            vfx.position = location;
+            vfx.gameObject.SetActive(true);
+        }
     }
     private void Awake()
     {
@@ -32,4 +46,9 @@ public class VFXPoolManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+}
+
+public enum VFXType
+{
+    vfxDefault
 }
