@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vfxTransforms:
   - {fileID: 528476314412713581, guid: df4bbb5d9e2f1cf4a97918a842dca78a, type: 3}
+  vfxPool: []
 --- !u!1 &1672739963253385509
 GameObject:
   m_ObjectHideFlags: 0

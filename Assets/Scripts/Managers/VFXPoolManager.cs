@@ -19,6 +19,7 @@ public class VFXPoolManager : MonoBehaviour
         vfxPool = new(_vfxTransforms.Count() * 3);
         //do a lamda express for imputmanager interact mouse set _mouseClicked to true
         PopulateVFXPool();
+        SubscribeTeEvents();
     }
     private void SubscribeTeEvents()
     {
@@ -42,18 +43,22 @@ public class VFXPoolManager : MonoBehaviour
         if (_mouseClicked)
         {
             _mouseClicked = false;
-            Vector3 mousePos = Camera.main.ScreenToWorldPoint(InputManager.Instance.Look);
-            SpawnVFXFromPool(mousePos, VFXType.vfxDefault);
+            RaycastHit hit;
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, Mathf.Infinity, LayerMask.GetMask("Ground")))
+            {
+                Vector3 mousePos = hit.point;
+                SpawnVFXFromPool(mousePos, VFXType.vfxDefault);
+            }
         }
 
     }
     private void SpawnVFXFromPool(Vector3 location, VFXType vfxType)
     {
-        Debug.Log("mousedClicked");
         Transform vfx = vfxPool.Find(x => x.gameObject.activeSelf == false && x.GetComponent<VFXRoot>().VFXType == vfxType);
         if (vfx == null)
         {
             vfx = Instantiate(_vfxTransforms[(int)vfxType], location, Quaternion.identity);
+            vfx.parent = transform;
             vfxPool.Add(vfx);
         }
         else
