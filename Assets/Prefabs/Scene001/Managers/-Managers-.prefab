@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 343dca9bc8f0d334ab5c61a36753cb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameObjectPool: []
 --- !u!1 &1672739963253385509
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +90,7 @@ GameObject:
   - component: {fileID: 5946630547410840303}
   - component: {fileID: 7278920870937643725}
   m_Layer: 0
-  m_Name: Inputmanager
+  m_Name: InputManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
