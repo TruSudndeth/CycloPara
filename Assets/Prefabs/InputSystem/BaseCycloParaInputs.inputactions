@@ -24,9 +24,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Interaction",
+                    "name": "ActionMouse",
                     "type": "Button",
                     "id": "a8f16299-4b37-4ced-8be8-6eb693086593",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ActionSpace",
+                    "type": "Button",
+                    "id": "748fc608-0812-4785-ac5a-76cd4d187481",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -206,18 +215,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interaction",
+                    "action": "ActionMouse",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "eb7b15df-3235-4c9d-a986-3b76461c1601",
+                    "id": "cab9c871-2029-4754-865c-65ab175926a1",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Interaction",
+                    "action": "ActionSpace",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
