@@ -19,8 +19,8 @@ public class ScriptEventListiner : MonoBehaviour
     void Start()
     {
         _meshRend = GetComponent<MeshRenderer>();
-        //InputManager.OnInteraction += SetTime;
         Koreographer.Instance.RegisterForEvents("Base_BPM-Drums", FireEventWDebg);
+        //InputManager.OnInteraction += SetTime;
     }
     void FireEventWDebg(KoreographyEvent koreoE)
     {
@@ -40,17 +40,5 @@ public class ScriptEventListiner : MonoBehaviour
     }
     void Update()
     {
-        if (_time + _resetTime < Time.time)
-        {
-            _time = Time.time;
-            _interacted = false;
-            _meshRend.material.color = Color.white;
-        }
-    }
-    private void SetTime()
-    {
-        _meshRend.material.color = Color.red;
-        _interacted = true;
-        _time = Time.time;
     }
 }
