@@ -1,5 +1,5 @@
 {
-    "name": "BaseCycloPara",
+    "name": "BaseCycloParaInputs",
     "maps": [
         {
             "name": "Player",
@@ -24,7 +24,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Action",
+                    "name": "Interaction",
                     "type": "Button",
                     "id": "a8f16299-4b37-4ced-8be8-6eb693086593",
                     "expectedControlType": "Button",
@@ -206,7 +206,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Action",
+                    "action": "Interaction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -217,7 +217,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Action",
+                    "action": "Interaction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
