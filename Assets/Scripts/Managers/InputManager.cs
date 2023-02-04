@@ -7,7 +7,8 @@ using UnityEngine.InputSystem;
 public class InputManager : MonoBehaviour
 {
     public delegate void Interaction();
-    public static event Interaction OnInteraction;
+    public static event Interaction OnInteractionMouse;
+    public static event Interaction OnInteractionSpace;
     public static InputManager Instance { get; private set; }
     public Vector2 Move { get { return _move; } private set { } }
     public Vector2 Look { get  { return _look; } private set { } }
@@ -16,11 +17,14 @@ public class InputManager : MonoBehaviour
     private BaseCycloParaInputs _baseInputs;
     private InputAction _WSAD;
     private InputAction _mouseLook;
-    private InputAction _interaction;
+    private InputAction _actionMouse;
+    private InputAction _actionSpace;
     private Vector2 _look;
     private Vector2 _move;
-    private bool _interact;
-    private bool _interactFixed = false;
+    private bool _interactMouse = false;
+    private bool _interactSpace = false;
+    private bool _interactMouseFixed = false;
+    private bool _interactSpaceFixed = false;
     private void Awake()
     {
         _baseInputs = new BaseCycloParaInputs();
@@ -37,43 +41,60 @@ public class InputManager : MonoBehaviour
         }
         _WSAD = _baseInputs.Player.Move;
         _mouseLook = _baseInputs.Player.Look;
-        _interaction = _baseInputs.Player.Interaction;
+        _actionMouse = _baseInputs.Player.ActionMouse;
+        _actionSpace = _baseInputs.Player.ActionSpace;
         EnableInputs();
     }
     private void EnableInputs()
     {
         _WSAD.Enable();
         _mouseLook.Enable();
-        _interaction.Enable();
+        _actionMouse.Enable();
+        _actionSpace.Enable();
     }
     private void DisableInputs()
     {
         _WSAD.Disable();
         _mouseLook.Disable();
-        _interaction.Disable();
+        _actionMouse.Disable();
+        _actionSpace.Disable();
     }
     void Update()
     {
         _move = _WSAD.ReadValue<Vector2>();
         _look = _mouseLook.ReadValue<Vector2>();
-        _interact = _interaction.triggered;
-        if(_interact)
+
+        _interactMouse = _actionMouse.triggered;
+        if(_interactMouse)
         {
-            _interactFixed = true;
+            _interactMouse = false;
+            _interactMouseFixed = true;
+        }
+        _interactSpace = _actionSpace.triggered;
+        if(_interactSpace)
+        {
+            _interactSpace = false;
+            _interactSpaceFixed = true;
         }
     }
     private void FixedUpdate()
     {
-        if(_interactFixed)
+        if(_interactMouseFixed)
         {
-            _interactFixed = false;
-            OnInteraction?.Invoke();
+            _interactMouseFixed = false;
+            OnInteractionMouse?.Invoke();
+        }
+        if (_interactSpaceFixed)
+        {
+            _interactSpaceFixed = false;
+            OnInteractionSpace?.Invoke();
         }
     }
     private void OnDisable()
     { 
         _WSAD.Disable();
         _mouseLook.Disable();
-        _interaction.Disable();
+        _actionMouse.Disable();
+        _actionSpace.Disable();
     }
 }

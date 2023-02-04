@@ -46,9 +46,18 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Interaction"",
+                    ""name"": ""ActionMouse"",
                     ""type"": ""Button"",
                     ""id"": ""a8f16299-4b37-4ced-8be8-6eb693086593"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ActionSpace"",
+                    ""type"": ""Button"",
+                    ""id"": ""748fc608-0812-4785-ac5a-76cd4d187481"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -228,18 +237,18 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Interaction"",
+                    ""action"": ""ActionMouse"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""eb7b15df-3235-4c9d-a986-3b76461c1601"",
+                    ""id"": ""cab9c871-2029-4754-865c-65ab175926a1"",
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Interaction"",
+                    ""action"": ""ActionSpace"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -829,7 +838,8 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
-        m_Player_Interaction = m_Player.FindAction("Interaction", throwIfNotFound: true);
+        m_Player_ActionMouse = m_Player.FindAction("ActionMouse", throwIfNotFound: true);
+        m_Player_ActionSpace = m_Player.FindAction("ActionSpace", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -903,14 +913,16 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Look;
-    private readonly InputAction m_Player_Interaction;
+    private readonly InputAction m_Player_ActionMouse;
+    private readonly InputAction m_Player_ActionSpace;
     public struct PlayerActions
     {
         private @BaseCycloParaInputs m_Wrapper;
         public PlayerActions(@BaseCycloParaInputs wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Look => m_Wrapper.m_Player_Look;
-        public InputAction @Interaction => m_Wrapper.m_Player_Interaction;
+        public InputAction @ActionMouse => m_Wrapper.m_Player_ActionMouse;
+        public InputAction @ActionSpace => m_Wrapper.m_Player_ActionSpace;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -926,9 +938,12 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
                 @Look.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
                 @Look.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
                 @Look.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLook;
-                @Interaction.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
-                @Interaction.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
-                @Interaction.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnInteraction;
+                @ActionMouse.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionMouse;
+                @ActionMouse.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionMouse;
+                @ActionMouse.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionMouse;
+                @ActionSpace.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionSpace;
+                @ActionSpace.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionSpace;
+                @ActionSpace.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnActionSpace;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -939,9 +954,12 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
                 @Look.started += instance.OnLook;
                 @Look.performed += instance.OnLook;
                 @Look.canceled += instance.OnLook;
-                @Interaction.started += instance.OnInteraction;
-                @Interaction.performed += instance.OnInteraction;
-                @Interaction.canceled += instance.OnInteraction;
+                @ActionMouse.started += instance.OnActionMouse;
+                @ActionMouse.performed += instance.OnActionMouse;
+                @ActionMouse.canceled += instance.OnActionMouse;
+                @ActionSpace.started += instance.OnActionSpace;
+                @ActionSpace.performed += instance.OnActionSpace;
+                @ActionSpace.canceled += instance.OnActionSpace;
             }
         }
     }
@@ -1100,7 +1118,8 @@ public partial class @BaseCycloParaInputs : IInputActionCollection2, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
-        void OnInteraction(InputAction.CallbackContext context);
+        void OnActionMouse(InputAction.CallbackContext context);
+        void OnActionSpace(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
