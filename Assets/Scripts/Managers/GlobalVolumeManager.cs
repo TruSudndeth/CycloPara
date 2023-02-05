@@ -30,7 +30,7 @@ public class GlobalVolumeManager : MonoBehaviour
     public void SetDepthOfField(float start, float end)
     {
         _globalVolume.profile.TryGet(out DepthOfField depthOfField);
-        depthOfField.focusDistance.value = start;
-        depthOfField.focusDistance.value = end;
+        depthOfField.gaussianStart.value = start;
+        depthOfField.gaussianEnd.value = end;
     }
 }

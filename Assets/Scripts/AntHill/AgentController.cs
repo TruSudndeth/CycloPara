@@ -4,6 +4,7 @@ using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.AI;
 using ProjectDawn.LocalAvoidance;
+using System.Runtime.CompilerServices;
 
 public class AgentController : MonoBehaviour
 {
@@ -25,10 +26,11 @@ public class AgentController : MonoBehaviour
     private float _walkingSpeed = 0;
     private float _AnimationSpeed = 0;
     private float _speedRatio = 0;
+    [SerializeField]
+    private bool _ignoreMouseInputs = true;
     void Start()
     {
         InputManager.OnInteractionMouse += () => _interactMouse = true;
-
         if (TryGetComponent(out Path path))
             _pathDestination = path;
         else
