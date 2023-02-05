@@ -4,7 +4,6 @@ using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 using UnityEngine.AI;
 using ProjectDawn.LocalAvoidance;
-using Unity.PlasticSCM.Editor.WebApi;
 
 public class AgentController : MonoBehaviour
 {
@@ -47,8 +46,18 @@ public class AgentController : MonoBehaviour
         //Get Walking speed from NaveMeshAgent
         _walkingSpeed = _navMeshAgent.speed;
         //Get Animation speed from Animator
-
-        SetCheckpoint();
+        StartCoroutine(WaitForPathInstance());
+    }
+    IEnumerator WaitForPathInstance()
+    {
+        while (PathManager.Instance == null)
+        {
+            Debug.Log("PathManager is null at start");
+            yield return null;
+        }
+        _currentFoodPosition = PathManager.Instance.SetDestination(_currentFoodIndex);
+        _pathDestination.Destination = _currentFoodPosition;
+        _waitForPathInstance = false;
     }
     private bool IsAtCheckpoint()
     {
@@ -75,7 +84,6 @@ public class AgentController : MonoBehaviour
         {
             _waitForPathInstance = false;
             SetCheckpoint();
-
         }
     }
     private void SetCheckpoint()
