@@ -145,6 +145,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_01 (1)
@@ -152,6 +160,14 @@ PrefabInstance:
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4193215156309446, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_RootOrder
@@ -224,6 +240,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_02 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4059369158113820, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -295,6 +327,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Reeds_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4252078742019236, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -362,9 +402,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4896241521240112, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_RootOrder
@@ -433,9 +489,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -507,6 +579,14 @@ PrefabInstance:
     - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Grass_05 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4678177972498044, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_RootOrder
@@ -583,6 +663,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -650,6 +738,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_02 (6)
@@ -657,6 +753,14 @@ PrefabInstance:
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4896241521240112, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_RootOrder
@@ -737,6 +841,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1346982405202136, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346982405202136, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4518727465989056, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
       propertyPath: m_RootOrder
       value: 80
@@ -804,6 +916,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_Name
       value: SM_Plant_PurpleFlower_01
@@ -811,6 +931,14 @@ PrefabInstance:
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4022802844162828, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_RootOrder
@@ -887,6 +1015,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -957,6 +1093,22 @@ PrefabInstance:
     - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4059369158113820, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_RootOrder
@@ -1033,6 +1185,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4687685091151540, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -1103,6 +1263,10 @@ PrefabInstance:
     - target: {fileID: 1143947256519772, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
       propertyPath: m_Name
       value: Grass_Blowing_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143947256519772, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4951144519254920, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
       propertyPath: m_RootOrder
@@ -1177,6 +1341,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4366797945224828, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -1247,6 +1419,14 @@ PrefabInstance:
     - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
@@ -1323,6 +1503,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -1390,9 +1578,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -1469,6 +1673,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4209569864283064, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -1543,6 +1755,14 @@ PrefabInstance:
     - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4880660810159496, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
       propertyPath: m_RootOrder
@@ -1619,6 +1839,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 82
@@ -1689,6 +1917,14 @@ PrefabInstance:
     - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Grass_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4209569864283064, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
       propertyPath: m_RootOrder
@@ -1761,6 +1997,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4880660810159496, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -1831,6 +2075,14 @@ PrefabInstance:
     - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
       propertyPath: m_Name
       value: SM_Plant_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1114102773694634, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4880660810159496, guid: d67884e9d618cfe4ea769c246cbb6ccc, type: 3}
       propertyPath: m_RootOrder
@@ -1903,6 +2155,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_02 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -1970,9 +2230,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_Name
       value: SM_Plant_PurpleFlower_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4022802844162828, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_RootOrder
@@ -2041,6 +2317,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (1)
@@ -2048,6 +2332,14 @@ PrefabInstance:
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -2120,6 +2412,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Grass_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4678177972498044, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -2190,6 +2490,14 @@ PrefabInstance:
     - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Hedge_Bush_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4034673564863644, guid: 5443f442824346441b5af0d84ae05120, type: 3}
       propertyPath: m_RootOrder
@@ -2265,6 +2573,10 @@ PrefabInstance:
     - target: {fileID: 1777957728757660, guid: 0f8982e7a09431147a4a9b72a57ef449, type: 3}
       propertyPath: m_Name
       value: Fire_Small_FX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777957728757660, guid: 0f8982e7a09431147a4a9b72a57ef449, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4751636421142972, guid: 0f8982e7a09431147a4a9b72a57ef449, type: 3}
       propertyPath: m_RootOrder
@@ -2343,9 +2655,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4896241521240112, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_RootOrder
@@ -2422,6 +2750,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4366797945224828, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_RootOrder
       value: 94
@@ -2492,6 +2828,14 @@ PrefabInstance:
     - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4183202509123876, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_RootOrder
@@ -2568,6 +2912,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1346982405202136, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1346982405202136, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4518727465989056, guid: 09a3b44b8937d6245b39d930062109c6, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2642,6 +2994,14 @@ PrefabInstance:
     - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4201455878151688, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
       propertyPath: m_RootOrder
@@ -2718,6 +3078,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4387668440234660, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -2784,6 +3152,14 @@ PrefabInstance:
     - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4500090590442396, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
       propertyPath: m_RootOrder
@@ -2860,6 +3236,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4500090590442396, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -2927,9 +3311,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -2998,9 +3398,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -3076,6 +3492,14 @@ PrefabInstance:
     - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571884418503298, guid: 5443f442824346441b5af0d84ae05120, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4034673564863644, guid: 5443f442824346441b5af0d84ae05120, type: 3}
       propertyPath: m_RootOrder
@@ -3156,6 +3580,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -3231,6 +3671,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1477781090313130, guid: d7bb738e4e0288b42b577570c010f6df, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477781090313130, guid: d7bb738e4e0288b42b577570c010f6df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4245605083521846, guid: d7bb738e4e0288b42b577570c010f6df, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -3301,6 +3749,14 @@ PrefabInstance:
     - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Reeds_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4252078742019236, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
       propertyPath: m_RootOrder
@@ -3377,6 +3833,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -3440,9 +3904,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4193215156309446, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_RootOrder
@@ -3514,6 +3994,14 @@ PrefabInstance:
     - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Hedge_Bush_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4657098212382554, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_RootOrder
@@ -3589,6 +4077,14 @@ PrefabInstance:
     - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4183202509123876, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_RootOrder
@@ -3669,6 +4165,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358660975821336, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4500090590442396, guid: a809e9c4d33e83f4fa8408a33b72eaf9, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -3744,6 +4248,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4201455878151688, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -3814,6 +4326,14 @@ PrefabInstance:
     - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Hedge_Bush_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4657098212382554, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_RootOrder
@@ -3889,6 +4409,10 @@ PrefabInstance:
     - target: {fileID: 1143947256519772, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
       propertyPath: m_Name
       value: Grass_Blowing_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1143947256519772, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4951144519254920, guid: 42d15d42149ed484d8aea06290796e07, type: 3}
       propertyPath: m_RootOrder
@@ -3971,6 +4495,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
       value: 89
@@ -4045,6 +4585,22 @@ PrefabInstance:
     - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
@@ -4121,6 +4677,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037344459507410, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4209569864283064, guid: 9c8446fabd2f61c4a823aebd526a359d, type: 3}
       propertyPath: m_RootOrder
       value: 65
@@ -4196,6 +4760,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4183202509123876, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -4263,9 +4835,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_Name
       value: SM_Plant_PurpleFlower_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4022802844162828, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_RootOrder
@@ -4342,6 +4930,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4387668440234660, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -4416,6 +5012,14 @@ PrefabInstance:
     - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4366797945224828, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_RootOrder
@@ -4492,6 +5096,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1517068201192904, guid: 6f62c6f9e92a8ed44878e929e7e8db3f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517068201192904, guid: 6f62c6f9e92a8ed44878e929e7e8db3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4690334271564126, guid: 6f62c6f9e92a8ed44878e929e7e8db3f, type: 3}
       propertyPath: m_RootOrder
       value: 83
@@ -4562,6 +5174,14 @@ PrefabInstance:
     - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994116034729256, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4366797945224828, guid: 9b0b9e5bc77867f45ad0f3080aa409e3, type: 3}
       propertyPath: m_RootOrder
@@ -4638,6 +5258,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
       value: 96
@@ -4704,6 +5340,22 @@ PrefabInstance:
     - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4059369158113820, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_RootOrder
@@ -4780,6 +5432,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153903725125606, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4183202509123876, guid: 7f253e36a99c6454e9f631317cb450b9, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -4853,6 +5513,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108696737788374, guid: bb147685fd85c0642833a173065b34b0, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108696737788374, guid: bb147685fd85c0642833a173065b34b0, type: 3}
+      propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4827543868558376, guid: bb147685fd85c0642833a173065b34b0, type: 3}
@@ -4940,6 +5604,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5010,6 +5682,10 @@ PrefabInstance:
     - target: {fileID: 1357630425699122, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
       propertyPath: m_Name
       value: SunBeams_Particle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357630425699122, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4358820364207982, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
       propertyPath: m_RootOrder
@@ -5088,6 +5764,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Hedge_Bush_02 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4657098212382554, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -5163,6 +5847,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -5230,9 +5922,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -5309,6 +6017,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4834476638083880, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
       propertyPath: m_RootOrder
       value: 105
@@ -5379,6 +6095,14 @@ PrefabInstance:
     - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
       propertyPath: m_Name
       value: SM_Plant_07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1148624134241714, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4201455878151688, guid: 2aac377f4e1169d4d8a9b4f429327f9d, type: 3}
       propertyPath: m_RootOrder
@@ -5451,6 +6175,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Grass_02 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1923026048575658, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923026048575658, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4082468324179482, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
       propertyPath: m_RootOrder
       value: 87
@@ -5518,6 +6250,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_Name
       value: SM_Plant_PurpleFlower_01 (2)
@@ -5525,6 +6265,14 @@ PrefabInstance:
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4022802844162828, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_RootOrder
@@ -5596,6 +6344,22 @@ PrefabInstance:
     - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
@@ -5672,6 +6436,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4687685091151540, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -5739,6 +6511,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730227899449152, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_Name
       value: SM_Plant_PurpleFlower_01 (1)
@@ -5746,6 +6526,14 @@ PrefabInstance:
     - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868905073017540, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4022802844162828, guid: e5ebf37e1cf2d85439deb462748a7d29, type: 3}
       propertyPath: m_RootOrder
@@ -5818,6 +6606,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -5889,6 +6685,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
       value: 44
@@ -5956,6 +6768,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_02 (5)
@@ -5963,6 +6783,14 @@ PrefabInstance:
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4896241521240112, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_RootOrder
@@ -6035,6 +6863,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Bush_02 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1466427836474396, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4387668440234660, guid: 5bd70a33951586a43a423d1366da97c0, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -6106,6 +6942,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718344637300176, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1979815442695188, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4973117701365034, guid: a8be9f01144e2af499b282b2e273a5eb, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -6173,6 +7025,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244184362830728, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_03 (4)
@@ -6180,6 +7040,14 @@ PrefabInstance:
     - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1658363313306210, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4856223807278604, guid: c0fe8f954046e4b4d845f9f33c99548e, type: 3}
       propertyPath: m_RootOrder
@@ -6256,6 +7124,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1087120402720156, guid: 2535f726e7be4c44cbf8998490f36b8a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087120402720156, guid: 2535f726e7be4c44cbf8998490f36b8a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4472446716753680, guid: 2535f726e7be4c44cbf8998490f36b8a, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -6326,6 +7202,14 @@ PrefabInstance:
     - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Grass_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4834476638083880, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
       propertyPath: m_RootOrder
@@ -6402,6 +7286,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4059369158113820, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -6476,6 +7376,14 @@ PrefabInstance:
     - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1180880902778204, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4252078742019236, guid: 37b4d0f08c9f4f642ae9708a310cac0c, type: 3}
       propertyPath: m_RootOrder
@@ -6552,6 +7460,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1923026048575658, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1923026048575658, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4082468324179482, guid: f6a0cd899fb3b8c449a40e5fb69e258d, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -6627,6 +7543,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1698834163741228, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1698834163741228, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4639412115680890, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -6645,15 +7569,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4639412115680890, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.482089
+      value: -0.5700598
       objectReference: {fileID: 0}
     - target: {fileID: 4639412115680890, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.262126
+      value: 5.0736594
       objectReference: {fileID: 0}
     - target: {fileID: 4639412115680890, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 28.223463
+      value: 28.36945
       objectReference: {fileID: 0}
     - target: {fileID: 4639412115680890, guid: eba12193aa2e30d4fa0e476b28f8e198, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6705,6 +7629,14 @@ PrefabInstance:
     - target: {fileID: 1804667845376260, guid: 4005b9a03d8625b4990b7a567bf6faa1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804667845376260, guid: 4005b9a03d8625b4990b7a567bf6faa1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1804667845376260, guid: 4005b9a03d8625b4990b7a567bf6faa1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4820193825655414, guid: 4005b9a03d8625b4990b7a567bf6faa1, type: 3}
       propertyPath: m_RootOrder
@@ -6782,9 +7714,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4193215156309446, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_RootOrder
@@ -6860,6 +7808,14 @@ PrefabInstance:
     - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643185210228196, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4657098212382554, guid: ff1550cb31a102946acb96cce0715c7a, type: 3}
       propertyPath: m_RootOrder
@@ -6940,6 +7896,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4678177972498044, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -7010,6 +7974,22 @@ PrefabInstance:
     - target: {fileID: 1188032362689352, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Undergrowth_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188032362689352, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188032362689352, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583802413826250, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583802413826250, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4031051372955858, guid: 4ac1d639b5994b345bdc22dd8e415a06, type: 3}
       propertyPath: m_RootOrder
@@ -7086,6 +8066,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -7156,6 +8144,14 @@ PrefabInstance:
     - target: {fileID: 1065279482647988, guid: d60d0e05c8559564a89d79349b214738, type: 3}
       propertyPath: m_Name
       value: SM_Plant_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065279482647988, guid: d60d0e05c8559564a89d79349b214738, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065279482647988, guid: d60d0e05c8559564a89d79349b214738, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4262097234420120, guid: d60d0e05c8559564a89d79349b214738, type: 3}
       propertyPath: m_RootOrder
@@ -7232,6 +8228,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4834476638083880, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -7307,6 +8311,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896228811670048, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4055637332690536, guid: a77401c30ad8d4a4cbf36d16e8126678, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -7380,6 +8392,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1108696737788374, guid: bb147685fd85c0642833a173065b34b0, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108696737788374, guid: bb147685fd85c0642833a173065b34b0, type: 3}
+      propertyPath: m_NavMeshLayer
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4827543868558376, guid: bb147685fd85c0642833a173065b34b0, type: 3}
@@ -7463,6 +8479,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Plant_04 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1169256839577764, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4687685091151540, guid: d34fda6422ea2484aa3c223d90f9a903, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -7530,6 +8554,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848687583247756, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Bush_Leaves_01
@@ -7537,6 +8569,14 @@ PrefabInstance:
     - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937847600842644, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4193215156309446, guid: 47d0da1ba5336ef4bb50355db2307fe0, type: 3}
       propertyPath: m_RootOrder
@@ -7613,6 +8653,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1597375411515710, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4077570778562278, guid: c2cdea0710f55cb4b8be00312c82e839, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -7688,6 +8736,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1364733423325056, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4834476638083880, guid: 97e77ce5d8e6fcf45968ff6855ddddf2, type: 3}
       propertyPath: m_RootOrder
       value: 46
@@ -7751,6 +8807,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5917744199815915505}
     m_Modifications:
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341165295738856, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Fern_Leaves_02 (7)
@@ -7758,6 +8822,14 @@ PrefabInstance:
     - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762627254017038, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4896241521240112, guid: 579429fe71610c6458c591e53ae6cb43, type: 3}
       propertyPath: m_RootOrder
@@ -7834,6 +8906,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1262191819135750, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1603572623858420, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4059369158113820, guid: ef8827edf81d4f34aace1bd2d0c358ff, type: 3}
       propertyPath: m_RootOrder
       value: 88
@@ -7904,6 +8992,10 @@ PrefabInstance:
     - target: {fileID: 1357630425699122, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
       propertyPath: m_Name
       value: SunBeams_Particle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1357630425699122, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4358820364207982, guid: 29d06c673ff3f1948abb2e144ac73d66, type: 3}
       propertyPath: m_RootOrder
@@ -7981,6 +9073,14 @@ PrefabInstance:
     - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_Name
       value: SM_Plant_Grass_05 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393679957294896, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4678177972498044, guid: c0afa580c5ee8484183dafdc704e8768, type: 3}
       propertyPath: m_RootOrder

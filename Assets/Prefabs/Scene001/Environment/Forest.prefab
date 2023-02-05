@@ -23,7 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6844994994732766374}
-  m_LocalRotation: {x: 0.08958138, y: 0.5750015, z: -0.12294648, w: -0.803886}
+  m_LocalRotation: {x: -0.08958046, y: -0.5750028, z: 0.1229467, w: 0.8038851}
   m_LocalPosition: {x: 42.712963, y: -6.489529, z: -31.095173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -121,7 +121,7 @@ Transform:
   - {fileID: 2838644373299317262}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.151, y: -71.174, z: 17.499}
 --- !u!1001 &2843420069681299666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -136,6 +136,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -214,9 +238,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -293,6 +341,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1540172408604518, guid: 659d26211f6da2749b99f4c64cce95c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540172408604518, guid: 659d26211f6da2749b99f4c64cce95c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4729443064179840, guid: 659d26211f6da2749b99f4c64cce95c9, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -363,6 +419,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -441,9 +521,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -508,9 +612,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4009708905313006, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -593,9 +721,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -664,6 +816,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1467718062152118, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467718062152118, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481427543987950, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481427543987950, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604021997048498, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604021997048498, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4050575302136516, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
       propertyPath: m_RootOrder
       value: 41
@@ -731,6 +907,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1332885570333996, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332885570333996, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644798225102766, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644798225102766, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_03
@@ -738,6 +930,14 @@ PrefabInstance:
     - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4302026258544176, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
       propertyPath: m_RootOrder
@@ -816,6 +1016,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01 (5)
@@ -823,6 +1031,22 @@ PrefabInstance:
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -883,9 +1107,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -946,6 +1194,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Generic_01 (2)
@@ -953,6 +1209,22 @@ PrefabInstance:
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4388383215679704, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_RootOrder
@@ -1021,6 +1293,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1145159864685458, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145159864685458, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700523326560366, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700523326560366, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_04 (1)
@@ -1028,6 +1316,14 @@ PrefabInstance:
     - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4271728572718218, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_RootOrder
@@ -1104,6 +1400,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1812121636561110, guid: 5310541057902c04bb23a275c2c68792, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1812121636561110, guid: 5310541057902c04bb23a275c2c68792, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4058236746101220, guid: 5310541057902c04bb23a275c2c68792, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -1178,6 +1482,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -1264,6 +1592,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1449376034317114, guid: 679138ede056eb542b9629948780ee84, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449376034317114, guid: 679138ede056eb542b9629948780ee84, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4764279293740514, guid: 679138ede056eb542b9629948780ee84, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1331,9 +1667,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -1402,6 +1762,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4659579814028464, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -1461,6 +1829,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01 (3)
@@ -1468,6 +1844,22 @@ PrefabInstance:
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -1528,6 +1920,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (7)
@@ -1535,6 +1943,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -1595,6 +2011,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (12)
@@ -1602,6 +2034,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -1662,6 +2102,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (5)
@@ -1669,6 +2125,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -1732,6 +2196,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -1809,6 +2297,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_Log_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1209787234085090, guid: e4d35fc487ff62e45b34ae45f80c88fc, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1209787234085090, guid: e4d35fc487ff62e45b34ae45f80c88fc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4925305911184638, guid: e4d35fc487ff62e45b34ae45f80c88fc, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -1873,9 +2369,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -1951,9 +2471,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -2029,9 +2573,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1753339864997930, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1753339864997930, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1756402572416146, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756402572416146, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1756402572416146, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887917000502556, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1887917000502556, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4005204135589666, guid: 1000cad1907db004b8d52ddf62c1ae94, type: 3}
       propertyPath: m_RootOrder
@@ -2100,9 +2668,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1332885570333996, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332885570333996, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644798225102766, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1644798225102766, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777461590549580, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4302026258544176, guid: 47ac04e5b24338c44ba15b946641236c, type: 3}
       propertyPath: m_RootOrder
@@ -2179,6 +2771,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1837295981095050, guid: 732e4c9ea17173840885f16c6497c479, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837295981095050, guid: 732e4c9ea17173840885f16c6497c479, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4630451110928882, guid: 732e4c9ea17173840885f16c6497c479, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -2253,6 +2853,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -2331,6 +2955,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (3)
@@ -2338,6 +2978,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -2406,6 +3054,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01 (2)
@@ -2413,6 +3069,22 @@ PrefabInstance:
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -2473,6 +3145,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01 (1)
@@ -2480,6 +3160,22 @@ PrefabInstance:
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -2548,6 +3244,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (3)
@@ -2555,6 +3267,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -2623,6 +3343,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01 (1)
@@ -2630,6 +3358,22 @@ PrefabInstance:
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -2698,6 +3442,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (1)
@@ -2705,6 +3465,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -2772,6 +3540,14 @@ PrefabInstance:
     - target: {fileID: 1560461424881576, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1560461424881576, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1560461424881576, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4858722431824720, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
       propertyPath: m_RootOrder
@@ -2844,6 +3620,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (1)
@@ -2851,6 +3643,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -2914,6 +3714,14 @@ PrefabInstance:
     - target: {fileID: 1467454332595294, guid: fe8147825b813cf46b4ef685a3ea56a8, type: 3}
       propertyPath: m_Name
       value: SM_Tree_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467454332595294, guid: fe8147825b813cf46b4ef685a3ea56a8, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467454332595294, guid: fe8147825b813cf46b4ef685a3ea56a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4428525224070040, guid: fe8147825b813cf46b4ef685a3ea56a8, type: 3}
       propertyPath: m_RootOrder
@@ -2986,9 +3794,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -3057,6 +3889,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (6)
@@ -3064,6 +3912,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -3124,9 +3980,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -3194,6 +4074,14 @@ PrefabInstance:
     - target: {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1609270425926636, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4659579814028464, guid: 9020d2933ec6c0544965ea4b12952c42, type: 3}
       propertyPath: m_RootOrder
@@ -3275,6 +4163,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1406637359910196, guid: 1c16030f889f46e42b6c73b6d0f6113e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1406637359910196, guid: 1c16030f889f46e42b6c73b6d0f6113e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4096893409505850, guid: 1c16030f889f46e42b6c73b6d0f6113e, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -3345,6 +4241,14 @@ PrefabInstance:
     - target: {fileID: 1939049381513534, guid: fa52ff58096048c4db727a636561983f, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Stump_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939049381513534, guid: fa52ff58096048c4db727a636561983f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939049381513534, guid: fa52ff58096048c4db727a636561983f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4834185190338424, guid: fa52ff58096048c4db727a636561983f, type: 3}
       propertyPath: m_RootOrder
@@ -3421,6 +4325,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1983199012346778, guid: e94c8232017a8bd4ba1c0f5115f3481d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1983199012346778, guid: e94c8232017a8bd4ba1c0f5115f3481d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4264730308607990, guid: e94c8232017a8bd4ba1c0f5115f3481d, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -3480,6 +4392,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_02 (2)
@@ -3487,6 +4415,14 @@ PrefabInstance:
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4024179324343364, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_RootOrder
@@ -3547,6 +4483,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1449285087367582, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449285087367582, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460426529293600, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1460426529293600, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1814772297973644, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Dead_03 (1)
@@ -3554,6 +4506,14 @@ PrefabInstance:
     - target: {fileID: 1814772297973644, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814772297973644, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814772297973644, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4128639702495554, guid: 7b324b148b509104cb0f42a02b6b4b78, type: 3}
       propertyPath: m_RootOrder
@@ -3629,6 +4589,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -3711,6 +4695,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_Branch_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1436310706135902, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436310706135902, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4231715115917856, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -3778,6 +4770,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01 (5)
@@ -3785,6 +4785,22 @@ PrefabInstance:
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -3852,6 +4868,30 @@ PrefabInstance:
     - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130392368877672, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326292509536616, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1742937734587570, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4466753665643056, guid: 1ea71f643417d124d91e53eae7c666a6, type: 3}
       propertyPath: m_RootOrder
@@ -3934,9 +4974,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -3997,6 +5061,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_02 (1)
@@ -4004,6 +5084,14 @@ PrefabInstance:
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4024179324343364, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_RootOrder
@@ -4064,9 +5152,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -4127,6 +5239,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Generic_01 (1)
@@ -4134,6 +5254,22 @@ PrefabInstance:
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4388383215679704, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_RootOrder
@@ -4208,6 +5344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_Round_02
       objectReference: {fileID: 0}
+    - target: {fileID: 1444406132134774, guid: cee0719eaa611da43905af2904d1904c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1444406132134774, guid: cee0719eaa611da43905af2904d1904c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4955220986018928, guid: cee0719eaa611da43905af2904d1904c, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -4279,6 +5423,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (9)
@@ -4286,6 +5446,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -4354,9 +5522,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -4417,6 +5609,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1146790385102960, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1146790385102960, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772176005975562, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1772176005975562, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1814190282122440, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Dead_01
@@ -4424,6 +5632,14 @@ PrefabInstance:
     - target: {fileID: 1814190282122440, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814190282122440, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1814190282122440, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4854867137686562, guid: 33247b6aefb946246bc9f0c7346b4364, type: 3}
       propertyPath: m_RootOrder
@@ -4492,6 +5708,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01 (3)
@@ -4499,6 +5723,22 @@ PrefabInstance:
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -4567,6 +5807,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (2)
@@ -4574,6 +5830,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -4634,6 +5898,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (2)
@@ -4641,6 +5921,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -4705,6 +5993,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (11)
@@ -4712,6 +6016,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -4785,6 +6097,14 @@ PrefabInstance:
     - target: {fileID: 1121632204772480, guid: bad3ddcb570876641a79193c07d20684, type: 3}
       propertyPath: m_Name
       value: SM_Tree_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121632204772480, guid: bad3ddcb570876641a79193c07d20684, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1121632204772480, guid: bad3ddcb570876641a79193c07d20684, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4989679614359530, guid: bad3ddcb570876641a79193c07d20684, type: 3}
       propertyPath: m_RootOrder
@@ -4865,6 +6185,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1560461424881576, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1560461424881576, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4858722431824720, guid: 11d0d688b29309541acbbbf9497b8b78, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -4944,6 +6272,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1646885935188752, guid: dafad5d52cd284f4b8229a896f9a966f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646885935188752, guid: dafad5d52cd284f4b8229a896f9a966f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4196735912448918, guid: dafad5d52cd284f4b8229a896f9a966f, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -5003,6 +6339,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (6)
@@ -5010,6 +6362,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -5078,6 +6438,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1552408322253738, guid: c104bd949dbb87644ab3fe86ab934293, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1552408322253738, guid: c104bd949dbb87644ab3fe86ab934293, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4866695740285760, guid: c104bd949dbb87644ab3fe86ab934293, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -5145,9 +6513,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -5208,9 +6600,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -5271,6 +6687,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1230607972622252, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230607972622252, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978868549040064, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978868549040064, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1992559430955086, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Generic_Giant_01
@@ -5278,6 +6710,14 @@ PrefabInstance:
     - target: {fileID: 1992559430955086, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992559430955086, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992559430955086, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4869555021460592, guid: 5301afbcc2367b5469f618258a227b39, type: 3}
       propertyPath: m_RootOrder
@@ -5338,6 +6778,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1145159864685458, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1145159864685458, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700523326560366, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700523326560366, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_04
@@ -5345,6 +6801,14 @@ PrefabInstance:
     - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1809296932901464, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4271728572718218, guid: bce0c9523691df448b83c8c972060b2c, type: 3}
       propertyPath: m_RootOrder
@@ -5417,6 +6881,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1467718062152118, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467718062152118, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481427543987950, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481427543987950, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604021997048498, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1604021997048498, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4050575302136516, guid: 7df36f4afc1dd884e81156cd2cb6545d, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -5484,6 +6972,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1230940825782746, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Generic_01
@@ -5491,6 +6987,22 @@ PrefabInstance:
     - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325612589990884, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458548897862386, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4388383215679704, guid: e377b882a13405d4b9d5c3e8e747595e, type: 3}
       propertyPath: m_RootOrder
@@ -5569,9 +7081,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -5632,9 +7168,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
@@ -5695,9 +7255,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1017930563817396, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182756067964316, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1926926283551868, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4724346807332270, guid: fc9f550802bde56499ac8b64cac565f0, type: 3}
       propertyPath: m_RootOrder
@@ -5758,9 +7342,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1177853767446638, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177853767446638, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521203865606656, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1521203865606656, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1916657975341368, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Birch_Small_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916657975341368, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1916657975341368, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4790057636653266, guid: e64e0b484ac273644af92dc0e00601a3, type: 3}
       propertyPath: m_RootOrder
@@ -5837,6 +7445,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1304606726358560, guid: 0390ab7cf3e190146bd7ef8f0cb7a482, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1304606726358560, guid: 0390ab7cf3e190146bd7ef8f0cb7a482, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4024054750372856, guid: 0390ab7cf3e190146bd7ef8f0cb7a482, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -5904,6 +7520,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (4)
@@ -5911,6 +7543,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -5971,6 +7611,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (10)
@@ -5978,6 +7634,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -6038,6 +7702,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073386966205698, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1164202258954308, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_02 (5)
@@ -6045,6 +7725,14 @@ PrefabInstance:
     - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687792525792312, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4024179324343364, guid: 566814b1eb74baa449f9fef747a83fd1, type: 3}
       propertyPath: m_RootOrder
@@ -6105,6 +7793,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1119309706472876, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119309706472876, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_01 (3)
@@ -6112,6 +7808,22 @@ PrefabInstance:
     - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891816287853304, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891816287853304, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4320883887219790, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_RootOrder
@@ -6172,6 +7884,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136247321137382, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_01 (4)
@@ -6179,6 +7899,22 @@ PrefabInstance:
     - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1137204502678828, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783114842634712, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4188878019612106, guid: fa1fbed80c6345a4da5ccfbda3b22ac4, type: 3}
       propertyPath: m_RootOrder
@@ -6239,6 +7975,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1119309706472876, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119309706472876, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Large_01
@@ -6246,6 +7990,22 @@ PrefabInstance:
     - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858709007138160, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891816287853304, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1891816287853304, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4320883887219790, guid: 058b5ab120afe6048b4289730cb3e5c9, type: 3}
       propertyPath: m_RootOrder
@@ -6322,6 +8082,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1436310706135902, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436310706135902, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4231715115917856, guid: d490d5805a8f22c449470acc5c2bbf6f, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -6397,6 +8165,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Tree_Stump_03 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1939049381513534, guid: fa52ff58096048c4db727a636561983f, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1939049381513534, guid: fa52ff58096048c4db727a636561983f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4834185190338424, guid: fa52ff58096048c4db727a636561983f, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -6464,6 +8240,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (13)
@@ -6471,6 +8263,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -6539,6 +8339,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1070622176374966, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1098385851804266, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_02 (8)
@@ -6546,6 +8362,14 @@ PrefabInstance:
     - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1247767785291130, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4369546567805978, guid: 0734397d1a4fd924f98424ecb4ca43b9, type: 3}
       propertyPath: m_RootOrder
@@ -6614,6 +8438,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6844994994732766369}
     m_Modifications:
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1003311363381694, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1177005981484592, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_Name
       value: SM_Tree_Pine_Small_02
@@ -6621,6 +8461,14 @@ PrefabInstance:
     - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788851852344936, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4323406122081712, guid: 2df6c259e4a67614fac8c85e23ecb3d5, type: 3}
       propertyPath: m_RootOrder
