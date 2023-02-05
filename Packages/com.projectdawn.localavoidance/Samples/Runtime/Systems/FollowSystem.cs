@@ -8,6 +8,7 @@ namespace ProjectDawn.LocalAvoidance.Demo
     {
         void Update()
         {
+
             // Follow target
             foreach (var followAgent in Query<FollowAgent>())
             {
