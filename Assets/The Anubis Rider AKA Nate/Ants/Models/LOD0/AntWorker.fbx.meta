@@ -1,155 +1,411 @@
 fileFormatVersion: 2
 guid: a87d55ba9624e0844aa22e8810dd3a08
-timeCreated: 1485463081
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Antenna.L
-    100002: Antenna.L.001
-    100004: Antenna.L.002
-    100006: Antenna.L.003
-    100008: Antenna.L.003_end
-    100010: Antenna.R
-    100012: Antenna.R.001
-    100014: Antenna.R.002
-    100016: Antenna.R.003
-    100018: Antenna.R.003_end
-    100020: //RootNode
-    100022: AntWorker
-    100024: Armature
-    100026: Head
-    100028: LowerLeg.L
-    100030: LowerLeg.L.001
-    100032: LowerLeg.L.002
-    100034: LowerLeg.L.003
-    100036: LowerLeg.L.004
-    100038: LowerLeg.L.004_end
-    100040: LowerLeg.R
-    100042: LowerLeg.R.001
-    100044: LowerLeg.R.002
-    100046: LowerLeg.R.003
-    100048: LowerLeg.R.004
-    100050: LowerLeg.R.004_end
-    100052: MiddleLeg.L
-    100054: MiddleLeg.L.001
-    100056: MiddleLeg.L.002
-    100058: MiddleLeg.L.003
-    100060: MiddleLeg.L.004
-    100062: MiddleLeg.L.004_end
-    100064: MiddleLeg.R
-    100066: MiddleLeg.R.001
-    100068: MiddleLeg.R.002
-    100070: MiddleLeg.R.003
-    100072: MiddleLeg.R.004
-    100074: MiddleLeg.R.004_end
-    100076: Pincher.L
-    100078: Pincher.L.001
-    100080: Pincher.L.001_end
-    100082: Pincher.R
-    100084: Pincher.R.001
-    100086: Pincher.R.001_end
-    100088: Spine
-    100090: Spine.001
-    100092: Spine.002
-    100094: Spine.003
-    100096: Spine.003_end
-    100098: UpperLeg.L
-    100100: UpperLeg.L.001
-    100102: UpperLeg.L.002
-    100104: UpperLeg.L.003
-    100106: UpperLeg.L.004
-    100108: UpperLeg.L.004_end
-    100110: UpperLeg.R
-    100112: UpperLeg.R.001
-    100114: UpperLeg.R.002
-    100116: UpperLeg.R.003
-    100118: UpperLeg.R.004
-    100120: UpperLeg.R.004_end
-    400000: Antenna.L
-    400002: Antenna.L.001
-    400004: Antenna.L.002
-    400006: Antenna.L.003
-    400008: Antenna.L.003_end
-    400010: Antenna.R
-    400012: Antenna.R.001
-    400014: Antenna.R.002
-    400016: Antenna.R.003
-    400018: Antenna.R.003_end
-    400020: //RootNode
-    400022: AntWorker
-    400024: Armature
-    400026: Head
-    400028: LowerLeg.L
-    400030: LowerLeg.L.001
-    400032: LowerLeg.L.002
-    400034: LowerLeg.L.003
-    400036: LowerLeg.L.004
-    400038: LowerLeg.L.004_end
-    400040: LowerLeg.R
-    400042: LowerLeg.R.001
-    400044: LowerLeg.R.002
-    400046: LowerLeg.R.003
-    400048: LowerLeg.R.004
-    400050: LowerLeg.R.004_end
-    400052: MiddleLeg.L
-    400054: MiddleLeg.L.001
-    400056: MiddleLeg.L.002
-    400058: MiddleLeg.L.003
-    400060: MiddleLeg.L.004
-    400062: MiddleLeg.L.004_end
-    400064: MiddleLeg.R
-    400066: MiddleLeg.R.001
-    400068: MiddleLeg.R.002
-    400070: MiddleLeg.R.003
-    400072: MiddleLeg.R.004
-    400074: MiddleLeg.R.004_end
-    400076: Pincher.L
-    400078: Pincher.L.001
-    400080: Pincher.L.001_end
-    400082: Pincher.R
-    400084: Pincher.R.001
-    400086: Pincher.R.001_end
-    400088: Spine
-    400090: Spine.001
-    400092: Spine.002
-    400094: Spine.003
-    400096: Spine.003_end
-    400098: UpperLeg.L
-    400100: UpperLeg.L.001
-    400102: UpperLeg.L.002
-    400104: UpperLeg.L.003
-    400106: UpperLeg.L.004
-    400108: UpperLeg.L.004_end
-    400110: UpperLeg.R
-    400112: UpperLeg.R.001
-    400114: UpperLeg.R.002
-    400116: UpperLeg.R.003
-    400118: UpperLeg.R.004
-    400120: UpperLeg.R.004_end
-    4300000: AntWorker
-    9500000: //RootNode
-    13700000: AntWorker
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Antenna.L
+  - first:
+      1: 100002
+    second: Antenna.L.001
+  - first:
+      1: 100004
+    second: Antenna.L.002
+  - first:
+      1: 100006
+    second: Antenna.L.003
+  - first:
+      1: 100008
+    second: Antenna.L.003_end
+  - first:
+      1: 100010
+    second: Antenna.R
+  - first:
+      1: 100012
+    second: Antenna.R.001
+  - first:
+      1: 100014
+    second: Antenna.R.002
+  - first:
+      1: 100016
+    second: Antenna.R.003
+  - first:
+      1: 100018
+    second: Antenna.R.003_end
+  - first:
+      1: 100020
+    second: //RootNode
+  - first:
+      1: 100022
+    second: AntWorker
+  - first:
+      1: 100024
+    second: Armature
+  - first:
+      1: 100026
+    second: Head
+  - first:
+      1: 100028
+    second: LowerLeg.L
+  - first:
+      1: 100030
+    second: LowerLeg.L.001
+  - first:
+      1: 100032
+    second: LowerLeg.L.002
+  - first:
+      1: 100034
+    second: LowerLeg.L.003
+  - first:
+      1: 100036
+    second: LowerLeg.L.004
+  - first:
+      1: 100038
+    second: LowerLeg.L.004_end
+  - first:
+      1: 100040
+    second: LowerLeg.R
+  - first:
+      1: 100042
+    second: LowerLeg.R.001
+  - first:
+      1: 100044
+    second: LowerLeg.R.002
+  - first:
+      1: 100046
+    second: LowerLeg.R.003
+  - first:
+      1: 100048
+    second: LowerLeg.R.004
+  - first:
+      1: 100050
+    second: LowerLeg.R.004_end
+  - first:
+      1: 100052
+    second: MiddleLeg.L
+  - first:
+      1: 100054
+    second: MiddleLeg.L.001
+  - first:
+      1: 100056
+    second: MiddleLeg.L.002
+  - first:
+      1: 100058
+    second: MiddleLeg.L.003
+  - first:
+      1: 100060
+    second: MiddleLeg.L.004
+  - first:
+      1: 100062
+    second: MiddleLeg.L.004_end
+  - first:
+      1: 100064
+    second: MiddleLeg.R
+  - first:
+      1: 100066
+    second: MiddleLeg.R.001
+  - first:
+      1: 100068
+    second: MiddleLeg.R.002
+  - first:
+      1: 100070
+    second: MiddleLeg.R.003
+  - first:
+      1: 100072
+    second: MiddleLeg.R.004
+  - first:
+      1: 100074
+    second: MiddleLeg.R.004_end
+  - first:
+      1: 100076
+    second: Pincher.L
+  - first:
+      1: 100078
+    second: Pincher.L.001
+  - first:
+      1: 100080
+    second: Pincher.L.001_end
+  - first:
+      1: 100082
+    second: Pincher.R
+  - first:
+      1: 100084
+    second: Pincher.R.001
+  - first:
+      1: 100086
+    second: Pincher.R.001_end
+  - first:
+      1: 100088
+    second: Spine
+  - first:
+      1: 100090
+    second: Spine.001
+  - first:
+      1: 100092
+    second: Spine.002
+  - first:
+      1: 100094
+    second: Spine.003
+  - first:
+      1: 100096
+    second: Spine.003_end
+  - first:
+      1: 100098
+    second: UpperLeg.L
+  - first:
+      1: 100100
+    second: UpperLeg.L.001
+  - first:
+      1: 100102
+    second: UpperLeg.L.002
+  - first:
+      1: 100104
+    second: UpperLeg.L.003
+  - first:
+      1: 100106
+    second: UpperLeg.L.004
+  - first:
+      1: 100108
+    second: UpperLeg.L.004_end
+  - first:
+      1: 100110
+    second: UpperLeg.R
+  - first:
+      1: 100112
+    second: UpperLeg.R.001
+  - first:
+      1: 100114
+    second: UpperLeg.R.002
+  - first:
+      1: 100116
+    second: UpperLeg.R.003
+  - first:
+      1: 100118
+    second: UpperLeg.R.004
+  - first:
+      1: 100120
+    second: UpperLeg.R.004_end
+  - first:
+      4: 400000
+    second: Antenna.L
+  - first:
+      4: 400002
+    second: Antenna.L.001
+  - first:
+      4: 400004
+    second: Antenna.L.002
+  - first:
+      4: 400006
+    second: Antenna.L.003
+  - first:
+      4: 400008
+    second: Antenna.L.003_end
+  - first:
+      4: 400010
+    second: Antenna.R
+  - first:
+      4: 400012
+    second: Antenna.R.001
+  - first:
+      4: 400014
+    second: Antenna.R.002
+  - first:
+      4: 400016
+    second: Antenna.R.003
+  - first:
+      4: 400018
+    second: Antenna.R.003_end
+  - first:
+      4: 400020
+    second: //RootNode
+  - first:
+      4: 400022
+    second: AntWorker
+  - first:
+      4: 400024
+    second: Armature
+  - first:
+      4: 400026
+    second: Head
+  - first:
+      4: 400028
+    second: LowerLeg.L
+  - first:
+      4: 400030
+    second: LowerLeg.L.001
+  - first:
+      4: 400032
+    second: LowerLeg.L.002
+  - first:
+      4: 400034
+    second: LowerLeg.L.003
+  - first:
+      4: 400036
+    second: LowerLeg.L.004
+  - first:
+      4: 400038
+    second: LowerLeg.L.004_end
+  - first:
+      4: 400040
+    second: LowerLeg.R
+  - first:
+      4: 400042
+    second: LowerLeg.R.001
+  - first:
+      4: 400044
+    second: LowerLeg.R.002
+  - first:
+      4: 400046
+    second: LowerLeg.R.003
+  - first:
+      4: 400048
+    second: LowerLeg.R.004
+  - first:
+      4: 400050
+    second: LowerLeg.R.004_end
+  - first:
+      4: 400052
+    second: MiddleLeg.L
+  - first:
+      4: 400054
+    second: MiddleLeg.L.001
+  - first:
+      4: 400056
+    second: MiddleLeg.L.002
+  - first:
+      4: 400058
+    second: MiddleLeg.L.003
+  - first:
+      4: 400060
+    second: MiddleLeg.L.004
+  - first:
+      4: 400062
+    second: MiddleLeg.L.004_end
+  - first:
+      4: 400064
+    second: MiddleLeg.R
+  - first:
+      4: 400066
+    second: MiddleLeg.R.001
+  - first:
+      4: 400068
+    second: MiddleLeg.R.002
+  - first:
+      4: 400070
+    second: MiddleLeg.R.003
+  - first:
+      4: 400072
+    second: MiddleLeg.R.004
+  - first:
+      4: 400074
+    second: MiddleLeg.R.004_end
+  - first:
+      4: 400076
+    second: Pincher.L
+  - first:
+      4: 400078
+    second: Pincher.L.001
+  - first:
+      4: 400080
+    second: Pincher.L.001_end
+  - first:
+      4: 400082
+    second: Pincher.R
+  - first:
+      4: 400084
+    second: Pincher.R.001
+  - first:
+      4: 400086
+    second: Pincher.R.001_end
+  - first:
+      4: 400088
+    second: Spine
+  - first:
+      4: 400090
+    second: Spine.001
+  - first:
+      4: 400092
+    second: Spine.002
+  - first:
+      4: 400094
+    second: Spine.003
+  - first:
+      4: 400096
+    second: Spine.003_end
+  - first:
+      4: 400098
+    second: UpperLeg.L
+  - first:
+      4: 400100
+    second: UpperLeg.L.001
+  - first:
+      4: 400102
+    second: UpperLeg.L.002
+  - first:
+      4: 400104
+    second: UpperLeg.L.003
+  - first:
+      4: 400106
+    second: UpperLeg.L.004
+  - first:
+      4: 400108
+    second: UpperLeg.L.004_end
+  - first:
+      4: 400110
+    second: UpperLeg.R
+  - first:
+      4: 400112
+    second: UpperLeg.R.001
+  - first:
+      4: 400114
+    second: UpperLeg.R.002
+  - first:
+      4: 400116
+    second: UpperLeg.R.003
+  - first:
+      4: 400118
+    second: UpperLeg.R.004
+  - first:
+      4: 400120
+    second: UpperLeg.R.004_end
+  - first:
+      43: 4300000
+    second: AntWorker
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: AntWorker
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -157,25 +413,47 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -185,11 +463,18 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

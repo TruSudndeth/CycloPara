@@ -30,6 +30,7 @@ namespace ProjectDawn.LocalAvoidance.Demo
 
                 playAnimation.Target.SetFloat("Speed", speed);
                 playAnimation.Target.speed = speed > 0.3f ? speed * AnimationSpeed : 1f;
+                Debug.Log("FindTarget", transform);
             }
         }
     }
