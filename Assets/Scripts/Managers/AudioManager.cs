@@ -13,6 +13,17 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
 
     private SimpleMusicPlayer _koreoMusicPlayer;
+    public SimpleMusicPlayer KoreoPlayer
+    {
+        get
+        {
+            if (_koreoMusicPlayer == null)
+            {
+                _koreoMusicPlayer = GetComponent<SimpleMusicPlayer>();
+            }
+            return _koreoMusicPlayer;
+        }
+    }
     private AudioSource _mainAudioSource;
     
     [SerializeField]
@@ -43,18 +54,29 @@ public class AudioManager : MonoBehaviour
 
     [Space]
     private float _musicTrackLegth = 0;
+    private void Awake()
+    {
+        ManagerInstance();
+    }
 
     private void Start()
     {
-        _mainAudioSource = GetComponent<AudioSource>();
-        _koreoMusicPlayer = GetComponent<SimpleMusicPlayer>();
-        
-        ManagerInstance();
+        if (TryGetComponent(out AudioSource source))
+            _mainAudioSource = source;
+        else
+            Debug.Log("AudioSource component not found", transform);
+        if(TryGetComponent(out SimpleMusicPlayer player))
+            _koreoMusicPlayer = player;
+        else
+            Debug.Log("SimpleMusicPlayer component not found", transform);
+            
     }
     private void ManagerInstance()
     {
         if (Instance == null)
+        {
             Instance = this;
+        }    
         else
             Destroy(gameObject);
     }
