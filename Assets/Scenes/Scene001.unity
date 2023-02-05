@@ -350,12 +350,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d212e39e2e3d73f4dba260f0b97d0355, type: 3}
+--- !u!1 &612390555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1111206082599560075, guid: 975d89168c6358647a01749ad1b2f228,
+    type: 3}
+  m_PrefabInstance: {fileID: 1111206082740412863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &612390556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
     type: 3}
   m_PrefabInstance: {fileID: 1111206082740412863}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &612390560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 612390555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowDebugText: 0
+  m_ShowCameraFrustum: 1
+  m_IgnoreTimeScale: 0
+  m_WorldUpOverride: {fileID: 0}
+  m_UpdateMethod: 2
+  m_BlendUpdateMethod: 1
+  m_DefaultBlend:
+    m_Style: 1
+    m_Time: 2
+    m_CustomCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  m_CustomBlends: {fileID: 0}
+  m_CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &866128349 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4037240505029682288, guid: 0ae9407a0e2991744a734ae25302b7fd,
@@ -667,37 +707,37 @@ PrefabInstance:
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 448.1176
+      value: 448.2483
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -51.15308
+      value: -51.419037
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -40.507076
+      value: -38.511288
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.12723221
+      value: -0.032912444
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.9901489
+      value: 0.0021060305
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.007423972
+      value: 0.99741614
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.05798285
+      value: 0.06382355
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560070, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
@@ -713,6 +753,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111206082599560071, guid: 975d89168c6358647a01749ad1b2f228,
+        type: 3}
+      propertyPath: field of view
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111206082599560071, guid: 975d89168c6358647a01749ad1b2f228,
+        type: 3}
+      propertyPath: far clip plane
+      value: 5000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111206082599560071, guid: 975d89168c6358647a01749ad1b2f228,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111206082599560071, guid: 975d89168c6358647a01749ad1b2f228,
+        type: 3}
+      propertyPath: orthographic size
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1111206082599560075, guid: 975d89168c6358647a01749ad1b2f228,
         type: 3}
@@ -892,6 +952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311968542391061935, guid: 48f69132067d82642ac60913cb6efa6b,
+        type: 3}
+      propertyPath: m_Name
+      value: Spore
       objectReference: {fileID: 0}
     - target: {fileID: 5997419610799663610, guid: 48f69132067d82642ac60913cb6efa6b,
         type: 3}
