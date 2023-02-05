@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1223223985, guid: aa81bbec85a3f423193272a7c6154986, type: 3}
+  m_Name: Base_BPM-Drums
+  m_EditorClassIdentifier: 
+  mEventID: Base_BPM-Drums
+  mEventList:
+  - mStartSample: 0
+    mEndSample: 0
+  - mStartSample: 23210
+    mEndSample: 23210
+  - mStartSample: 46421
+    mEndSample: 46421
+  - mStartSample: 69631
+    mEndSample: 69631
+  - mStartSample: 92842
+    mEndSample: 92842
+  - mStartSample: 116052
+    mEndSample: 116052
+  - mStartSample: 139263
+    mEndSample: 139263
+  - mStartSample: 162473
+    mEndSample: 162473
+  - mStartSample: 185684
+    mEndSample: 185684
+  - mStartSample: 208894
+    mEndSample: 208894
+  - mStartSample: 232105
+    mEndSample: 232105
+  - mStartSample: 255315
+    mEndSample: 255315
+  - mStartSample: 278526
+    mEndSample: 278526
+  - mStartSample: 301736
+    mEndSample: 301736
+  - mStartSample: 324947
+    mEndSample: 324947
+  - mStartSample: 348157
+    mEndSample: 348157
+  - mStartSample: 371368
+    mEndSample: 371368
+  - mStartSample: 394578
+    mEndSample: 394578
+  - mStartSample: 417789
+    mEndSample: 417789
+  - mStartSample: 441000
+    mEndSample: 441000
+  - mStartSample: 464210
+    mEndSample: 464210
+  - mStartSample: 487421
+    mEndSample: 487421
+  - mStartSample: 510631
+    mEndSample: 510631
+  - mStartSample: 533842
+    mEndSample: 533842
+  - mStartSample: 557052
+    mEndSample: 557052
+  - mStartSample: 580263
+    mEndSample: 580263
+  - mStartSample: 603473
+    mEndSample: 603473
+  - mStartSample: 626684
+    mEndSample: 626684
+  - mStartSample: 649894
+    mEndSample: 649894
+  - mStartSample: 673105
+    mEndSample: 673105
+  - mStartSample: 696315
+    mEndSample: 696315
+  - mStartSample: 719526
+    mEndSample: 719526
+  - mStartSample: 742736
+    mEndSample: 742736
+  - mStartSample: 765947
+    mEndSample: 765947
+  - mStartSample: 789157
+    mEndSample: 789157
+  - mStartSample: 812368
+    mEndSample: 812368
+  - mStartSample: 835578
+    mEndSample: 835578
+  - mStartSample: 858789
+    mEndSample: 858789
+  - mStartSample: 882000
+    mEndSample: 882000
+  - mStartSample: 905210
+    mEndSample: 905210
+  - mStartSample: 928421
+    mEndSample: 928421
+  - mStartSample: 951631
+    mEndSample: 951631
+  - mStartSample: 974842
+    mEndSample: 974842
+  - mStartSample: 998052
+    mEndSample: 998052
+  - mStartSample: 1021263
+    mEndSample: 1021263
+  - mStartSample: 1044473
+    mEndSample: 1044473
+  - mStartSample: 1067684
+    mEndSample: 1067684
+  - mStartSample: 1090894
+    mEndSample: 1090894
+  - mStartSample: 1114105
+    mEndSample: 1114105
+  - mStartSample: 1137315
+    mEndSample: 1137315
+  - mStartSample: 1160526
+    mEndSample: 1160526
+  - mStartSample: 1183736
+    mEndSample: 1183736
+  - mStartSample: 1206947
+    mEndSample: 1206947
+  - mStartSample: 1230157
+    mEndSample: 1230157
+  - mStartSample: 1253368
+    mEndSample: 1253368
+  - mStartSample: 1276578
+    mEndSample: 1276578
+  - mStartSample: 1299789
+    mEndSample: 1299789
+  - mStartSample: 1323000
+    mEndSample: 1323000
+  - mStartSample: 1346210
+    mEndSample: 1346210
+  - mStartSample: 1369421
+    mEndSample: 1369421
+  - mStartSample: 1392631
+    mEndSample: 1392631
+  - mStartSample: 1415842
+    mEndSample: 1415842
+  - mStartSample: 1439052
+    mEndSample: 1439052
+  - mStartSample: 1462263
+    mEndSample: 1462263
+  - mStartSample: 1485473
+    mEndSample: 1485473
+  - mStartSample: 1508684
+    mEndSample: 1508684
+  - mStartSample: 1531894
+    mEndSample: 1531894
+  - mStartSample: 1555105
+    mEndSample: 1555105
+  - mStartSample: 1578315
+    mEndSample: 1578315
+  - mStartSample: 1601526
+    mEndSample: 1601526
+  - mStartSample: 1624736
+    mEndSample: 1624736
+  - mStartSample: 1647947
+    mEndSample: 1647947
+  - mStartSample: 1671157
+    mEndSample: 1671157
+  - mStartSample: 1694368
+    mEndSample: 1694368
+  - mStartSample: 1717578
+    mEndSample: 1717578
+  - mStartSample: 1740789
+    mEndSample: 1740789
+  - mStartSample: 1764000
+    mEndSample: 1764000
+  - mStartSample: 1787210
+    mEndSample: 1787210
+  - mStartSample: 1810421
+    mEndSample: 1810421
+  - mStartSample: 1833631
+    mEndSample: 1833631
+  - mStartSample: 1856842
+    mEndSample: 1856842
+  - mStartSample: 1880052
+    mEndSample: 1880052
+  - mStartSample: 1903263
+    mEndSample: 1903263
+  - mStartSample: 1926473
+    mEndSample: 1926473
+  - mStartSample: 1949684
+    mEndSample: 1949684
+  - mStartSample: 1972894
+    mEndSample: 1972894
+  - mStartSample: 1996105
+    mEndSample: 1996105
+  - mStartSample: 2019315
+    mEndSample: 2019315
+  - mStartSample: 2042526
+    mEndSample: 2042526
+  - mStartSample: 2065736
+    mEndSample: 2065736
+  - mStartSample: 2088947
+    mEndSample: 2088947
+  - mStartSample: 2112157
+    mEndSample: 2112157
+  - mStartSample: 2135368
+    mEndSample: 2135368
+  - mStartSample: 2158578
+    mEndSample: 2158578
+  - mStartSample: 2181789
+    mEndSample: 2181789
+  - mStartSample: 2205000
+    mEndSample: 2205000
+  _SerializedPayloadTypes:
+  - SonicBloom.Koreo.ColorPayload
+  _AssetPayloads: []
+  _AssetPayloadIdxs: 
+  _ColorPayloads:
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  - mColorVal: {r: 1, g: 1, b: 1, a: 1}
+  _ColorPayloadIdxs: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000
+  _CurvePayloads: []
+  _CurvePayloadIdxs: 
+  _FloatPayloads: []
+  _FloatPayloadIdxs: 
+  _GradientPayloads: []
+  _GradientPayloadIdxs: 
+  _IntPayloads: []
+  _IntPayloadIdxs: 
+  _SpectrumPayloads: []
+  _SpectrumPayloadIdxs: 
+  _TextPayloads: []
+  _TextPayloadIdxs: 
