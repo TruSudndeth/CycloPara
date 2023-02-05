@@ -41,44 +41,37 @@ public class AudioManager : MonoBehaviour
     [SerializeField]
     private AudioSource _audioSource;
 
+    [Space]
+    private float _musicTrackLegth = 0;
+
     private void Start()
     {
         _mainAudioSource = GetComponent<AudioSource>();
         _koreoMusicPlayer = GetComponent<SimpleMusicPlayer>();
+        
+        ManagerInstance();
+    }
+    private void ManagerInstance()
+    {
         if (Instance == null)
             Instance = this;
         else
             Destroy(gameObject);
-        _koreoMusicPlayer.LoadSong(_koreoStage1, 0, false);
+    }
+    public void LoadKoreoTrack(Koreography koreoTrack, int bpmTrack, bool autoPlay)
+    {
+        _koreoMusicPlayer.LoadSong(koreoTrack, bpmTrack, autoPlay);
+    }
+    public void PlayKoreoTrack(bool isLooping)
+    {
+        _mainAudioSource.loop = isLooping;
         _koreoMusicPlayer.Play();
-        _mainAudioSource.loop = true;
-        StartCoroutine(NextTrackEvent());
+        _musicTrackLegth = GetSongLength();
     }
-    public void LoadKoreoTrack(Koreography koreoTrack)
+    public float GetSongLength()
     {
-        _koreoMusicPlayer.LoadSong(koreoTrack, 0, false);
-        _mainAudioSource.loop = true;
-    }
-    public void PlayKoreoTrack()
-    {
-        _koreoMusicPlayer.Play();
-    }
-    IEnumerator NextTrackEvent()
-    {
-        //Get the audioSouces length from track
-        //and wait for the length of the track
-        float trackLength = _mainAudioSource.clip.length;
-        yield return new WaitForSeconds(3.0f);
-        _koreoMusicPlayer.LoadSong(_koreoStage2, 0, false);
-        _koreoMusicPlayer.Play();
-    }
-    private void OnDisable()
-    {
-        
-    }
-
-    void Update()
-    {
-        
+        if (_audioSource == null) return 0;
+        float clip = _audioSource.clip.length;
+        return clip;
     }
 }
