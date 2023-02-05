@@ -47,13 +47,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 258ee6bbfd44c4d4c927eb962f82fb2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _koreographer1: {fileID: 11400000, guid: 922e1780ff836cf4abb6f8507d97f29c, type: 2}
-  _koreographer2: {fileID: 11400000, guid: 5afb2a184c76f4773b8a529426f04a94, type: 2}
-  _audioSource: {fileID: 0}
-  _musicTracks: []
+  _koreoStage1: {fileID: 11400000, guid: 1d4c098bae9d5fc43a4d1077cd8b4ca4, type: 2}
+  _koreoStage2: {fileID: 11400000, guid: 6dcc2e584ad56534a804bad4b414b7e1, type: 2}
+  _koreoStage3: {fileID: 11400000, guid: a470f0f74ac23f447a391f0dcd18cbfa, type: 2}
+  _koreoStage4: {fileID: 11400000, guid: 077e443798c0a1b49b9183d13436a1d9, type: 2}
+  _koreoStage5: {fileID: 11400000, guid: 1e480f39746080c4aa73b40b6f3c2ed5, type: 2}
   _sfxTracks: []
-  _eventTracks:
-  - {fileID: 0}
+  _audioSource: {fileID: 0}
 --- !u!114 &1679750730428625301
 MonoBehaviour:
   m_ObjectHideFlags: 0

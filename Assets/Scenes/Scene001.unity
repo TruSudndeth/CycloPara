@@ -2142,6 +2142,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Audiomanager
       objectReference: {fileID: 0}
+    - target: {fileID: 8370613905393270452, guid: b2546b23529b265469b534c6dfea1deb,
+        type: 3}
+      propertyPath: _koreoStage1
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d4c098bae9d5fc43a4d1077cd8b4ca4,
+        type: 2}
+    - target: {fileID: 8370613905393270452, guid: b2546b23529b265469b534c6dfea1deb,
+        type: 3}
+      propertyPath: _koreoStage2
+      value: 
+      objectReference: {fileID: 11400000, guid: 6dcc2e584ad56534a804bad4b414b7e1,
+        type: 2}
+    - target: {fileID: 8370613905393270452, guid: b2546b23529b265469b534c6dfea1deb,
+        type: 3}
+      propertyPath: _koreoStage3
+      value: 
+      objectReference: {fileID: 11400000, guid: a470f0f74ac23f447a391f0dcd18cbfa,
+        type: 2}
+    - target: {fileID: 8370613905393270452, guid: b2546b23529b265469b534c6dfea1deb,
+        type: 3}
+      propertyPath: _koreoStage4
+      value: 
+      objectReference: {fileID: 11400000, guid: 077e443798c0a1b49b9183d13436a1d9,
+        type: 2}
+    - target: {fileID: 8370613905393270452, guid: b2546b23529b265469b534c6dfea1deb,
+        type: 3}
+      propertyPath: _koreoStage5
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e480f39746080c4aa73b40b6f3c2ed5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b2546b23529b265469b534c6dfea1deb, type: 3}
 --- !u!1001 &7595543221035032476
