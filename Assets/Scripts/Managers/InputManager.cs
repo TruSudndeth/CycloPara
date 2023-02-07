@@ -28,36 +28,41 @@ public class InputManager : MonoBehaviour
     private void Awake()
     {
         _baseInputs = new BaseCycloParaInputs();
+        SetInstance();
     }
     void Start()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
         _WSAD = _baseInputs.Player.Move;
         _mouseLook = _baseInputs.Player.Look;
         _actionMouse = _baseInputs.Player.ActionMouse;
         _actionSpace = _baseInputs.Player.ActionSpace;
         EnableInputs();
     }
-    private void EnableInputs()
+    private void SetInstance()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+    public void EnableInputs()
     {
         _WSAD.Enable();
         _mouseLook.Enable();
         _actionMouse.Enable();
         _actionSpace.Enable();
     }
-    private void DisableInputs()
+    public void DisableInputs()
     {
         _WSAD.Disable();
         _mouseLook.Disable();
         _actionMouse.Disable();
         _actionSpace.Disable();
+        //check is _actionMouse is Disabled
+        if (_mouseLook.phase == InputActionPhase.Disabled)
+        {
+            Debug.Log("MouseLook is Disabled");
+        }
     }
     void Update()
     {

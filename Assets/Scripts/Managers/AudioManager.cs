@@ -54,10 +54,6 @@ public class AudioManager : MonoBehaviour
 
     [Space]
     private float _musicTrackLegth = 0;
-    private void Awake()
-    {
-        ManagerInstance();
-    }
 
     private void Start()
     {
@@ -70,8 +66,9 @@ public class AudioManager : MonoBehaviour
         else
             Debug.Log("SimpleMusicPlayer component not found", transform);
             
+        SetInstance();
     }
-    private void ManagerInstance()
+    private void SetInstance()
     {
         if (Instance == null)
         {

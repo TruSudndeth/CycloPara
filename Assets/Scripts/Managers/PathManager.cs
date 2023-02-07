@@ -25,6 +25,11 @@ public class PathManager : MonoBehaviour
         int paths = _foodPath.Count > _homeToPoint1.Count ? _foodPath.Count : _homeToPoint1.Count;
         _paths = new List<Transform>(paths);
         SetPathList();
+        
+        SetInstance();
+    }
+    private void SetInstance()
+    {
         if (Instance == null)
             Instance = this;
         else

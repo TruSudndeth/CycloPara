@@ -69,14 +69,14 @@ public class VFXPoolManager : MonoBehaviour
     }
     private void Awake()
     {
+        SetInstance();
+    }
+    private void SetInstance()
+    {
         if (Instance == null)
-        {
             Instance = this;
-        }
         else
-        {
             Destroy(gameObject);
-        }
     }
 }
 
